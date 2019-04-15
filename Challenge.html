@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>
+        Challenge 1
+    </title>
+
+    <style>
+        html {
+            overflow-x: hidden;
+            overflow-y: hidden;
+        }
+
+        .box {
+            width: 100%;
+            padding-right: 20px;
+        }
+
+        .boxBlack {
+            background-color: #263238; 
+        }
+
+        .boxDarkBlue {
+            background-color: #1565C0;
+        }
+
+        .boxLightBlue {
+            background-color: #42A5F5;
+        }
+
+        /*h1 {
+            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+            font-size: 40px;
+            padding: 20px;
+            padding-bottom: 0px;
+        }*/
+
+        .betterHeader {
+            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+            font-size: 40px;
+            padding: 20px;
+            padding-bottom: 0px;
+            padding-top: 40px;
+        }
+
+        /*h2 {
+            font-size: 20px;
+            padding-left: 20px;
+            font-weight: normal;
+        }*/
+
+        .betterHeader2 {
+            font-size: 20px;
+            padding-left: 20px;
+            font-weight: normal;
+            padding-top: 4px;
+            padding-bottom: 10px;
+        }
+
+        .smallText {
+            font-size: 10px;
+            padding-left: 20px;
+            padding-bottom: 20px;
+            font-weight: normal;
+            transform: translate(30px, 0px)
+                /* +10px x-axis from headingInfo2 */
+        }
+
+        .extraPadding {
+            padding-bottom: 40px;
+        }
+
+        .smallTextOnTop {
+            font-size: 10px;
+            padding-left: 20px;
+            padding-bottom: 25px;
+            font-weight: normal;
+        }
+
+        .headingInfo1 {
+            font-size: 20px;
+            padding: 20px;
+            padding-top: 30px;
+            padding-bottom: 10px;
+            font-weight: bold;
+        }
+
+
+        .headingInfo2 {
+            font-size: 15px;
+            padding-left: 20px;
+            font-weight: bold;
+            transform: translate(20px, 0px)
+                /* +20px x-axis from headingInfo1 */
+        }
+
+        .smallheadingInfo2 {
+            font-size: 10px;
+        }
+
+        .dateInfo {
+            font-size: 10px;
+            height: 9px;
+            padding: 5px 4px;
+            display: inline-flex;
+            font-weight: normal;
+            background-color: #607D8B;
+            transform: translate(50px, 0px)
+                /* +10px x-axis from headingInfo2 */
+        }
+
+        .allFont {
+            font-family: Arial, Helvetica, sans-serif;
+            color: white;
+        }
+
+        .nospacing {
+            transform: translate(-8px, -8px);
+        }
+    </style>
+</head>
+
+<body>
+    <form class="allFont nospacing">
+        <div class="box boxBlack">
+            <!--<h1>
+                Jeophrey <br> Van Coritico
+            </h1>-->
+            <div class="betterHeader">
+                Jeophrey <br> Van Coritico
+            </div>
+            <!--<h2>
+                SOFTWARE DEVELOPER
+            </h2>-->
+            <div class="betterHeader2">
+                SOFTWARE DEVELOPER
+            </div>
+            <div class="smallTextOnTop">
+                Super cool programmer from the future. (Sent back to present time, via Delorean)
+            </div>
+        </div>
+        <div class="box boxDarkBlue">
+            <div class="headingInfo1">
+                ACADEMIC HISTORY
+            </div>
+            <div class="headingInfo2">
+                • WestBreen Primary School, St Francis De Sales <a class="smallheadingInfo2">Oak Park, Pascoe Vale</a>
+            </div>
+            <div class="dateInfo">
+                January 2006 - December 2009, January 2010 - December 2012
+            </div>
+            <div class="smallText">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad reiciendis, et animi facilis ipsam ipsa
+                est? Quae minima, nisi ex, consequatur non maxime quidem quia nobis deserunt facere adipisci obcaecati.
+            </div>
+            <div class="headingInfo2">
+                • Penola Catholic College junior, Penola Catholic College senior, <a class="smallheadingInfo2">Glenroy,
+                    BroadMeadows</a>
+            </div>
+            <div class="dateInfo">
+                January 2013 - December 2014, January 2015 - December 2019
+            </div>
+            <div class="smallText">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad reiciendis, et animi facilis ipsam ipsa
+                est? Quae minima, nisi ex, consequatur non maxime quidem quia nobis deserunt facere adipisci obcaecati.
+            </div>
+            <div class="headingInfo2">
+                • Swinburne University <a class="smallheadingInfo2">Hawthorne</a>
+            </div>
+            <div class="dateInfo">
+                January 2019 - Ongoing
+            </div>
+            <div class="smallText extraPadding">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad reiciendis, et animi facilis ipsam ipsa
+                est? Quae minima, nisi ex, consequatur non maxime quidem quia nobis deserunt facere adipisci obcaecati.
+            </div>
+        </div>
+        <div class="box boxLightBlue">
+            <div class="headingInfo1">
+                WORK EXPERIENCE
+            </div>
+            <div class="headingInfo2">
+                • Coles <a class="smallheadingInfo2">BroadMeadows</a>
+            </div>
+            <div class="dateInfo">
+                January 2019 - Ongoing
+            </div>
+            <div class="smallText">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad reiciendis, et animi facilis ipsam ipsa
+                est? Quae minima, nisi ex, consequatur non maxime quidem quia nobis deserunt facere adipisci obcaecati.
+            </div>
+            <div class="headingInfo2">
+                • Super Duper <a style="text-decoration: underline">REAL</a> Software Development Contract <a class="smallheadingInfo2">Some
+                    Secret Place</a>
+            </div>
+            <div class="dateInfo">
+                September 2000 - Ongoing
+            </div>
+            <div class="smallText">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad reiciendis, et animi facilis ipsam ipsa
+                est? Quae minima, nisi ex, consequatur non maxime quidem quia nobis deserunt facere adipisci obcaecati.
+            </div>
+            <div class="headingInfo2">
+                • Pine<a style="text-decoration: underline">APPLE</a> <a class="smallheadingInfo2"> Steven Jobbers'
+                    garage</a>
+            </div>
+            <div class="dateInfo">
+                25 February 1955 - Ongoing
+            </div>
+            <div class="smallText extraPadding">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad reiciendis, et animi facilis ipsam ipsa
+                est? Quae minima, nisi ex, consequatur non maxime quidem quia nobis deserunt facere adipisci obcaecati.
+            </div>
+        </div>
+    </form>
+</body>
+
+</html>
